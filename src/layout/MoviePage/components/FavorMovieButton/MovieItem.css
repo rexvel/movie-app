@@ -10,7 +10,8 @@
 
 .movie-image {
     width: auto;
-    height: auto   ;
+    height: auto;
+
 }
 
 .movie-image img {
@@ -22,13 +23,21 @@
     display: flex;
     width: 57%;
 }
+
 .movie-content h2 {
     margin: 0;
 }
 
 
-.movie-like svg {
+.movie-like  svg {
     position: absolute;
     top: -0px;
     right: 10px;
+    fill: #ffead0;
+    stroke-width: 3;
+    stroke: #d1954b;
+}
+
+.movie-like .favor  svg {
+    fill: #d1954b
 }

@@ -1,19 +1,22 @@
 .movie-search {
-    width: 50%;
+    width: 30%;
     height: auto;
     margin: 0 auto;
 }
 
 .search-form {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .search-form__input {
-    width: 38%;
+    width: 60%;
     padding: 18px;
 }
 
 .search-form__button {
-    width: 15%;
-    height: 50px;
+    width: 25%;
+    background-color: #FFEAD0;
 }
