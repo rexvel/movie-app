@@ -5,10 +5,7 @@ function MovieSearch({searchMovies, query, setQuery}) {
 
   return (
     <div className="movie-search">
-      <form class="search-form" onSubmit={searchMovies}>
-        <label className="label" htmlFor="query">
-          What film are you looking for?
-        </label>
+      <form class="search-form" >
         <input
           class="search-form__input"
           type="text"

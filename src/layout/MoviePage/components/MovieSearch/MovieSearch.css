@@ -3,6 +3,17 @@
     height: auto;
     margin: 0 auto;
 }
-.search-form{
+
+.search-form {
     text-align: center;
+}
+
+.search-form__input {
+    width: 38%;
+    padding: 18px;
+}
+
+.search-form__button {
+    width: 15%;
+    height: 50px;
 }
