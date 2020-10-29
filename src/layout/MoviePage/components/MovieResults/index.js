@@ -1,7 +1,7 @@
 import MovieItem from '../MovieItem';
 import "./MovieResults.css";
 
-function MovieResults() {
+function MovieResults({movies}) {
   return (
   <div className="movie-items">
       <MovieItem />
