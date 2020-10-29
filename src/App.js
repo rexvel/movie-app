@@ -3,6 +3,8 @@ function App() {
   return (
     <div className="App">
         <MoviePage />
+
+     
     </div>
   );
 }
